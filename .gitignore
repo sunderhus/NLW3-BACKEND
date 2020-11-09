@@ -1,5 +1,6 @@
 node_modules
 
+!uploads/
 uploads/*
 
-src/database/*.sqlite
+./src/database/*.sqlite
