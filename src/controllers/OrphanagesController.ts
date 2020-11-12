@@ -53,7 +53,7 @@ export default {
       longitude,
       about,
       instructions,
-      open_on_weekends,
+      open_on_weekends: Boolean(open_on_weekends),
       opening_hours,
       images,
     };
