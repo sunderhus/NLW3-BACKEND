@@ -70,7 +70,7 @@ export default {
         Yup.object().shape({
           path: Yup.string().required(),
         })
-      ),
+      ).required(),
     });
 
     await schema.validate(data, { abortEarly: false });
